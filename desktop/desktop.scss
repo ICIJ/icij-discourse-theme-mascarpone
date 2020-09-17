@@ -21,10 +21,15 @@
   display: flex;
 
   .category-logo-show {
+    max-width: 330px;
     margin: 0.25em 1em 1em 0;
+    float: none;
+    max-height: none;
+
     img {
       width: 100%;
       height: auto;
+      max-height: 150px;
     }
   }
 
