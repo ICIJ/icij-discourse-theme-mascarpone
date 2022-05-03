@@ -113,9 +113,14 @@ a, a:visited {
   }
 }
 
-.group-details-container {
-  position: relative;
+.group--has-flair .group-details-container,
+.group--has-bio .group-details-container {
   display: flex;
+}
+
+.group-details-container {
+  display: none;
+  position: relative;
   flex-direction: row;
   align-items: center;
   background: #fff;
