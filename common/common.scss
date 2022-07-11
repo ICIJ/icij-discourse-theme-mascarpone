@@ -260,6 +260,7 @@ table {
 .combo-box.group-category-dropdown,
 .combo-box.group-dropdown,
 .combo-box.category-drop {
+  min-width: 0;
 
   .combo-box-header {
     font-weight: bolder;
@@ -337,6 +338,10 @@ table {
   padding: 1rem;
   margin-bottom: 2rem;
   @include boxShadow;
+}
+
+.navigation-container .list-controls .btn {
+  font-size: 1rem;
 }
 
 .category-navigation > .category-breadcrumb {
